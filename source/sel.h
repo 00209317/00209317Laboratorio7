@@ -334,8 +334,8 @@ void assemblyb(element e,Vector localb,Vector &b,int nnodes){
     b.at(index4) += localb.at(3);
     b.at(index5) += localb.at(4);
     b.at(index6) += localb.at(5);
-    //b.at(index7) += localb.at(6);
-    //b.at(index8) += localb.at(7);
-    //b.at(index9) += localb.at(8);
+    b.at(index7) += localb.at(6);
+    b.at(index8) += localb.at(7);
+    b.at(index9) += localb.at(8);
 }
 
